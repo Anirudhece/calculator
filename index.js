@@ -15,6 +15,7 @@ for(let item of button){
         
         else if(text=='='){
             calcScreen.value=eval(calcScreen.value);
+            input=calcScreen.value;
         }
         
         else{
