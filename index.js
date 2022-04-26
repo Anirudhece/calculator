@@ -6,7 +6,7 @@ let input= ''; //string which will show the operation on screen
 for(let item of button){
     item.addEventListener('click', (e)=>{
         let text= e.target.innerText ;
-        console.log(text);
+        // console.log(text);
         
         if(text=='C'){
             calcScreen.value= '';
