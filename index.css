@@ -1,0 +1,22 @@
+#body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    padding: 40px;
+}
+.horizontal{
+    display: flex;
+    justify-content: center;
+}
+.top input{
+    width:16.5rem;
+    height: 3rem;
+}
+.table-wala button{
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    border: 0;
+}
